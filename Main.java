@@ -129,10 +129,10 @@ public class Main {
     } while (pelea);
     
     if(enemyLife <=0){
-        System.out.println("Congratulation you won!!!!!");
+        System.out.println("\nCongratulation you won!!!!!");
     }
     else{
-        System.out.println("You lost against " + enemyPokemon.Pokemos(aleatoryNumber));
+        System.out.println("\nYou lost against " + enemyPokemon.Pokemos(aleatoryNumber));
     }
     }
 }
