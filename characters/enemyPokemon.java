@@ -3,13 +3,13 @@ import java.util.Random;
 
 public class enemyPokemon extends Pokemon {
     
-    public String Pokemos (int EnemyNumber){
+    public String enemyName (int enemyNumber){
         String[] pokemons = {"Pikachu","Charizard","Bulbasaur","Squirtle","Jigglypuff","Meowth","Psyduck","Eevee"
         ,"Snorlax","Mewtwo","Mew","Gengar","Lapras","Gyarados","Alakazam","Vulpix","Ninetales","Machamp","Raichu","Golem",};
         
-        String enemyname = pokemons[EnemyNumber];
+        String enemyName = pokemons[enemyNumber];
 
-        return enemyname;
+        return enemyName;
     }
 
     public int enemyAttack(){
